@@ -25,6 +25,7 @@ module tt_um_3v_inverter_SiliconeGuide (
         .VSS(VGND),
         .input(ua[1]),
         .output(ua[0])
+        
         );
 
     // ties for the output enables
@@ -57,4 +58,4 @@ module tt_um_3v_inverter_SiliconeGuide (
 
 endmodule
 
-endmodule
+
