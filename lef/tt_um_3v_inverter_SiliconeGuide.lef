@@ -467,7 +467,7 @@ MACRO tt_um_3v_inverter_SiliconeGuide
       LAYER met2 ;
         RECT 56.260 7.010 137.090 32.480 ;
       LAYER met3 ;
-        RECT 22.880 7.005 137.095 32.485 ;
+        RECT 22.880 6.760 137.095 32.485 ;
       LAYER met4 ;
         RECT 15.730 224.360 17.390 225.310 ;
         RECT 18.490 224.360 20.150 225.310 ;
