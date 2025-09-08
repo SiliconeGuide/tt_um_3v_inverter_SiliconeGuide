@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Inverter_3v
-  author:       ""      # Andrew Parra
-  discord:      ""      # andparra
-  description:  ""      # An inverter but it can handle 3.3V
+  title:        "Inverter_3v"      
+  author:       "Andrew Parra"     
+  discord:      "andparra"      
+  description:  "An inverter but it can handle 3.3V"      
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 

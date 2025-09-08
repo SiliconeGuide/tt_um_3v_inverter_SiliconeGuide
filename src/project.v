@@ -8,7 +8,7 @@
 module tt_um_3v_inverter_SiliconeGuide (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
-//    input  wire       VAPWR,    // 3.3v power supply
+    input  wire       VAPWR,    // 3.3v power supply
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -21,7 +21,7 @@ module tt_um_3v_inverter_SiliconeGuide (
 );
 
 	double_inverter double_inverter(
-		.VDD(VDPWR),
+		.VDD(VAPWR),
 		.VSS(VGND),
 		.input(ua[1]),
 		.output(ua[0])
