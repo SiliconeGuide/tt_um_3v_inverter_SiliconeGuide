@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N -0 -70 70 -70 {lab=VDD}
 N 70 -120 70 -70 {lab=VDD}
@@ -23,10 +24,10 @@ N 260 -70 300 -70 {lab=VDD}
 N 300 -120 300 -70 {lab=VDD}
 N 260 -120 300 -120 {lab=VDD}
 N 260 -120 260 -100 {lab=VDD}
-N 260 70 300 70 {lab=#net2}
-N 300 70 300 120 {lab=#net2}
-N 260 120 300 120 {lab=#net2}
-N 260 100 260 120 {lab=#net2}
+N 260 70 300 70 {lab=VSS}
+N 300 70 300 120 {lab=VSS}
+N 260 120 300 120 {lab=VSS}
+N 260 100 260 120 {lab=VSS}
 N 260 -40 260 40 {lab=output}
 N 260 -0 390 -0 {lab=output}
 C {sky130_fd_pr/pfet_g5v0d10v5.sym} -20 -70 0 0 {name=M1

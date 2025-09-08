@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.2}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 B 2 1320 -840 2120 -440 {flags=graph
 y1=-7.0898975
@@ -76,7 +77,6 @@ N 670 530 730 530 {lab=VSS}
 N 960 550 960 600 {lab=pin_out_parax}
 N 280 510 370 510 {
 lab=in}
-C {5v_inverter.sym} 530 -40 0 0 {name=x1}
 C {devices/simulator_commands_shown.sym} 890 -740 0 0 {name=COMMANDS
 simulator=ngspice
 only_toplevel=false 
@@ -143,7 +143,6 @@ C {devices/ammeter.sym} 680 -90 0 0 {name=Vmeas savecurrent=true}
 C {devices/opin.sym} 1070 -20 0 0 {name=p13 lab=pin_out
 }
 C {devices/ipin.sym} 290 -60 0 0 {name=p8 lab=in}
-C {5v_inverter.sym} 520 530 0 0 {name=x2}
 C {devices/lab_wire.sym} 670 340 0 0 {name=p5 sig_type=std_logic lab=VDD}
 C {devices/lab_wire.sym} 730 530 2 0 {name=p7 sig_type=std_logic lab=VSS
 }

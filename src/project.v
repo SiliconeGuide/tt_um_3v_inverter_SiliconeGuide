@@ -20,13 +20,12 @@ module tt_um_3v_inverter_SiliconeGuide (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-  5v_inverter 5v_inverter (
-        .VDD(VDPWR),
-        .VSS(VGND),
-        .input(ua[1]),
-        .output(ua[0])
-        
-        );
+	double_inverter double_inverter(
+		.VDD(VDPWR),
+		.VSS(VGND),
+		.INPUT(ua[1]),
+		.OUTPUT(ua[0])
+	);
 
     // ties for the output enables
     assign uo_out[0] = VGND;
