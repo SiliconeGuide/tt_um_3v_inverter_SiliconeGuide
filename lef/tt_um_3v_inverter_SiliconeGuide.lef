@@ -459,6 +459,7 @@ MACRO tt_um_3v_inverter_SiliconeGuide
   END VGND
   PIN VAPWR
     ANTENNADIFFAREA 17.753799 ;
+     USE POWER ;
     PORT
       LAYER met4 ;
         RECT 18.540 4.760 20.540 220.520 ;
